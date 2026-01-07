@@ -4,3 +4,50 @@
 body{
     background-color: rgb(236, 192, 236);
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:wdth,wght@87.5,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+   height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #cafdff;
+}
+
+header {
+    background-color: #eadcff;
+    height:100vh;
+}
+
+header {
+    text-align: center;
+    padding: 24px 16px;
+}
+
+a {
+    color: #000b;
+    font-size: 24px;
+    font-weight: bold;
+}
+    padding: 16px 32px;
+    background-color: rgb(200, 162, 243);
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display:flex;
+}
+
+li {
+    list-style-type none;
+    padding-left: 16px;
+}
