@@ -1,8 +1,8 @@
 #about{
-    color: rgb(56, 82, 230);
+    color: rgb(11, 25, 102);
 }
 body{
-    background-color: rgb(236, 192, 236);
+    background-color: rgb(240, 248, 213);
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:wdth,wght@87.5,300&display=swap');
 * {
@@ -22,7 +22,7 @@ nav {
 }
 
 header {
-    background-color: #eadcff;
+    background-color:  rgb(236, 192, 236);
     height:100vh;
 }
 
@@ -31,14 +31,29 @@ header {
     padding: 24px 16px;
 }
 
+.subheader{
+    font-size: 36px;
+    color: #3333ff;
+    margin-top: 16p 0 24px 0;
+}
+
+button 
+{background-color: #05c7cf;
+ color: white;
+ border: none;
+ padding: 8px 16px;
+ font-size: 24px;
+cursor: pointer;
+ border-radius: 8px;
+
+}
+
+
 a {
     color: #000b;
     font-size: 24px;
     font-weight: bold;
 }
-    padding: 16px 32px;
-    background-color: rgb(200, 162, 243);
-
 .logo {
     width: 300px;
 }
@@ -48,6 +63,131 @@ ul {
 }
 
 li {
-    list-style-type none;
+    list-style-type: none;
     padding-left: 16px;
 }
+
+
+
+.row{ width: 100%;
+      max-width: 1300px;
+      margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+    }
+
+
+        #about,
+    #discord,
+    #contact 
+    footer{
+        padding: 48px 0;
+    }
+
+    /*
+
+    ABOUT
+
+    */
+    #about{
+    padding: 48px 0;
+    background-color: #f8ffdc;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.section__description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__img--wrapper{
+    width: 40%;
+    }
+    
+img{
+    width: 100%;
+}
+.section__description--wrapper{
+    width: 60%;
+    }
+
+
+.about__img--wrapper,
+section__description--wrapper{
+    padding:0 244px;
+
+}
+
+    .section__description--para{
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 24px;
+    }
+
+     /*
+
+    DISCORD
+
+    */
+
+    #discord {
+        background-color: #cefeff;
+    }
+
+    /*
+
+   CONTACT
+
+    */
+
+    #contact {
+        background-color: #dce9ff;
+    }
+
+    form{
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+       flex-direction: column;
+         margin: 0 auto;
+    }
+
+    input textarea{
+        margin-bottom: 24px;
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+
+
+    /*
+
+   FOOTER
+
+    */
+
+    footer {
+        background-color:#aaf5ff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__logo{
+        max-width: 480px;
+        margin-bottom: 16px;
+    }
+
+    .footer__links{
+        margin-bottom: 32px;  
+      }
+    .footer__link{
+        padding: 0 16px;
+      }
